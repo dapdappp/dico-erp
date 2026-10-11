@@ -1,0 +1,33 @@
+
+{
+  "id": "hrm",
+  "name": "HRM",
+  "icon": "users",
+  "route": "#hrm",
+  "allowed_roles": [
+    "Superadmin",
+    "HRM"
+  ],
+  "menu": [
+    {
+      "label": "Dashboard HRM",
+      "route": "#hrm/dashboard"
+    },
+    {
+      "label": "Data Karyawan",
+      "route": "#hrm/employees"
+    },
+    {
+      "label": "Pengajuan Cuti",
+      "route": "#hrm/leaves"
+    },
+    {
+      "label": "Data Event",
+      "route": "#hrm/events"
+    },
+    {
+      "label": "Registrasi Peserta",
+      "route": "#hrm/registrations"
+    }
+  ]
+}

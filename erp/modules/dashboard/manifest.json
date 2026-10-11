@@ -1,0 +1,10 @@
+{
+  "id": "dashboard",
+  "name": "Dashboard",
+  "icon": "dashboard",
+  "route": "#dashboard",
+  "allowed_roles": ["Superadmin", "Finance", "HRM", "CRM", "Event Manager"],
+  "menu": [
+    { "label": "Dashboard", "route": "#dashboard" }
+  ]
+}

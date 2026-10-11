@@ -1,0 +1,11 @@
+{
+  "id": "crm",
+  "name": "CRM",
+  "icon": "customer",
+  "route": "#crm",
+  "allowed_roles": ["Superadmin", "CRM", "Event Manager"],
+  "menu": [
+    { "label": "Data Customer", "route": "#crm/customers" },
+    { "label": "Log Interaksi", "route": "#crm/interactions" }
+  ]
+}

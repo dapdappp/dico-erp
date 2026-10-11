@@ -1,0 +1,12 @@
+{
+  "id": "finance",
+  "name": "Finance",
+  "icon": "finance",
+  "route": "#finance",
+  "allowed_roles": ["Superadmin", "Finance"],
+  "menu": [
+    { "label": "Chart of Accounts", "route": "#finance/accounts" },
+    { "label": "Transaksi", "route": "#finance/transactions" },
+    { "label": "Jurnal", "route": "#finance/journal" }
+  ]
+}

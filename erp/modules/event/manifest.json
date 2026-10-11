@@ -1,0 +1,11 @@
+{
+  "id": "event",
+  "name": "Event",
+  "icon": "calendar",
+  "route": "#event",
+  "allowed_roles": ["Superadmin", "Event Manager", "Finance", "HRM", "CRM"],
+  "menu": [
+    { "label": "Data Event", "route": "#event/workshops" },
+    { "label": "Registrasi", "route": "#event/registrations" }
+  ]
+}

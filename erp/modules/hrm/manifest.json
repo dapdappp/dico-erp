@@ -1,0 +1,11 @@
+{
+  "id": "hrm",
+  "name": "HRM",
+  "icon": "users",
+  "route": "#hrm",
+  "allowed_roles": ["Superadmin", "HRM"],
+  "menu": [
+    { "label": "Data Karyawan", "route": "#hrm/employees" },
+    { "label": "Pengajuan Cuti", "route": "#hrm/leaves" }
+  ]
+}
